@@ -1,0 +1,13 @@
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\bin\Debug\netcoreapp3.1\ChallengeV1.exe
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\bin\Debug\netcoreapp3.1\ChallengeV1.deps.json
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\bin\Debug\netcoreapp3.1\ChallengeV1.runtimeconfig.json
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\bin\Debug\netcoreapp3.1\ChallengeV1.runtimeconfig.dev.json
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\bin\Debug\netcoreapp3.1\ChallengeV1.dll
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\bin\Debug\netcoreapp3.1\ChallengeV1.pdb
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\obj\Debug\netcoreapp3.1\ChallengeV1.csprojAssemblyReference.cache
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\obj\Debug\netcoreapp3.1\ChallengeV1.AssemblyInfoInputs.cache
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\obj\Debug\netcoreapp3.1\ChallengeV1.AssemblyInfo.cs
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\obj\Debug\netcoreapp3.1\ChallengeV1.csproj.CoreCompileInputs.cache
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\obj\Debug\netcoreapp3.1\ChallengeV1.dll
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\obj\Debug\netcoreapp3.1\ChallengeV1.pdb
+C:\Users\91889\source\repos\ChallengeV1\ChallengeV1\obj\Debug\netcoreapp3.1\ChallengeV1.genruntimeconfig.cache
