@@ -4,12 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
+/// <summary>
+/// ChallengeV1 namespace to have unique name under assembly level.
+/// </summary>
 namespace ChallengeV1
 {
+    /// <summary>
+    /// Startup of the execution.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
         {
+            // Declaration of startup parameters
+            // Data types to hold world vector, drone vector, directions detail, command inputs from end user.
             var validWorldVectorinp = false; var validDroneVectorinp = false; var validDroneCommandinp = false; var droneCmdComplete = false;
             List<string> worldVectorArr = new List<string>();
             List<string> droneVectorArr = new List<string>();
@@ -19,6 +27,8 @@ namespace ChallengeV1
             Console.WriteLine("=== Volodrone Initialising");
             Console.WriteLine("=== Volodrone Sensor Data Read");
 
+            // Validation and acceptance of world vector.
+            // The world vector should have only 3 integers differentiated by single space
             while (!validWorldVectorinp)
             {
                 Console.WriteLine("=== Enter World Vector Data (ex:10 10 10)");
@@ -34,6 +44,8 @@ namespace ChallengeV1
                 }
             }
 
+            // Validation and acceptance of drone vector
+            // The drone vector should have only 3 integers differentiated by single space
             while (!validDroneVectorinp)
             {
                 Console.WriteLine("=== Enter Drone Vector Data (ex:5 5 5)");
@@ -50,6 +62,10 @@ namespace ChallengeV1
                 }
             }
 
+            // Validation and acceptance of drone command.
+            // Validation Scenario 1: Alphanumeric values allowed with valid direction value
+            // Validation Scenario 2: Order and distance has to be numeric
+            // Validation Scenario 3: No duplication of the order
             while (!droneCmdComplete)
             {
                 Console.WriteLine("=== Enter Drone Command Data (ex:01 LEFT 2)");
@@ -109,12 +125,9 @@ namespace ChallengeV1
                 }
             }
 
+            //Vector class to process the drone movement
             Vector vector = new Vector();
             bool crashTestStatus = vector.VectorMovement(worldVectorArr, droneVectorArr, droneCommandList);
-            if (!crashTestStatus)
-            {
-                //Console.WriteLine("CRASH IMMINENT - AUTOMATIC COURSE CORRECTION --> (0,5,5)");
-            }
             Console.WriteLine("=== Volodrone Landing");
             Console.ReadLine();
         }

@@ -4,6 +4,9 @@ using System.Text;
 
 namespace ChallengeV1
 {
+    /// <summary>
+    /// DroneCmdViewModel class to hold the drone command 
+    /// </summary>
     public class DroneCmdViewModel
     {
         public int OrderNo { get; set; }
